@@ -150,51 +150,53 @@ export const products: Product[] = [
     },
   },
   {
-    id: "acido-muriatico",
-    name: "Ácido Muriático",
+    id: "acido-sulfonico",
+    name: "Ácido Sulfônico 90%",
     description:
-      "Ácido clorídrico para correção de pH e limpeza pesada industrial.",
-    category: "industrial",
-    image: "/images/products/acido-muriatico.jpg",
+      "Ácido sulfônico de alta concentração, matéria-prima essencial para fabricação de detergentes e produtos de limpeza.",
+    category: "limpeza",
+    image: "/images/products/acido-sulfonico.jpg",
     applications: [
-      "Correção de pH",
-      "Limpeza de superfícies",
-      "Processos industriais",
+      "Fabricação de detergentes líquidos",
+      "Produção de produtos de limpeza industrial",
+      "Base para formulações de limpeza",
     ],
     specifications: {
-      concentration: "33%",
-      packaging: ["Bombona 30L", "Bombona 50L", "Container 1000L"],
+      concentration: "90%",
+      packaging: ["Bombona 50L", "Container 1000L"],
       certifications: ["ANVISA"],
     },
   },
   {
-    id: "algicida-piscina",
-    name: "Algicida de Manutenção",
+    id: "amida",
+    name: "Amida 60%",
     description:
-      "Algicida líquido de alta eficiência para prevenção e tratamento de algas em piscinas.",
-    category: "piscinas",
-    image: "/images/products/algicida.jpg",
+      "Agente espessante e estabilizante de espuma para produtos de limpeza e detergentes.",
+    category: "limpeza",
+    image: "/images/products/amida.jpg",
     applications: [
-      "Prevenção de algas",
-      "Tratamento de água verde",
-      "Manutenção semanal",
+      "Espessante para detergentes",
+      "Estabilizante de espuma",
+      "Formulação de produtos de limpeza",
     ],
     specifications: {
-      packaging: ["Frasco 1L", "Galão 5L", "Bombona 20L"],
+      concentration: "60%",
+      packaging: ["Bombona 20L", "Bombona 50L"],
       certifications: ["ANVISA"],
     },
   },
   {
     id: "barrilha",
-    name: "Barrilha (Carbonato de Sódio)",
+    name: "Barrilha Leve (Carbonato de Sódio)",
     description:
-      "Carbonato de sódio para elevação de pH e alcalinidade da água.",
-    category: "piscinas",
+      "Carbonato de sódio para elevação de pH, alcalinidade da água e fabricação de produtos de limpeza.",
+    category: "industrial",
     image: "/images/products/barrilha.jpg",
     applications: [
       "Elevação de pH",
       "Correção de alcalinidade",
       "Tratamento de água",
+      "Fabricação de detergentes",
     ],
     specifications: {
       packaging: ["Saco 25kg", "Big Bag 1000kg"],
@@ -202,19 +204,216 @@ export const products: Product[] = [
     },
   },
   {
+    id: "base-amaciante",
+    name: "Base para Amaciante",
+    description:
+      "Base concentrada para fabricação de amaciantes de roupas com excelente performance.",
+    category: "limpeza",
+    image: "/images/products/base-amaciante.jpg",
+    applications: [
+      "Fabricação de amaciantes de roupas",
+      "Produção de produtos para lavanderia",
+      "Base para formulações aromáticas",
+    ],
+    specifications: {
+      packaging: ["Bombona 20L", "Bombona 50L", "Container 1000L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "base-detergente",
+    name: "Base para Detergente",
+    description:
+      "Base concentrada para fabricação de detergentes líquidos de alta qualidade e eficiência.",
+    category: "limpeza",
+    image: "/images/products/base-detergente.jpg",
+    applications: [
+      "Fabricação de detergentes líquidos",
+      "Produção de produtos para lavagem de louças",
+      "Base para formulações de limpeza",
+    ],
+    specifications: {
+      packaging: ["Bombona 20L", "Bombona 50L", "Container 1000L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "bicromato-sodio",
+    name: "Bicromato de Sódio Hidratado",
+    description:
+      "Produto químico industrial utilizado em processos de oxidação e tratamento de superfícies.",
+    category: "industrial",
+    image: "/images/products/bicromato-sodio.jpg",
+    applications: [
+      "Processos industriais de oxidação",
+      "Tratamento de superfícies metálicas",
+      "Aplicações químicas especializadas",
+    ],
+    specifications: {
+      packaging: ["Saco 25kg"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "brancol",
+    name: "Brancol 30%",
+    description:
+      "Agente alvejante e branqueador para produtos de limpeza e tratamento têxtil.",
+    category: "limpeza",
+    image: "/images/products/brancol.jpg",
+    applications: [
+      "Alvejamento de tecidos",
+      "Branqueamento em processos têxteis",
+      "Formulação de produtos de limpeza",
+    ],
+    specifications: {
+      concentration: "30%",
+      packaging: ["Bombona 20L", "Bombona 50L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "cloreto-benzalconio",
+    name: "Cloreto de Benzalcônico",
+    description:
+      "Agente bactericida e algicida de amplo espectro, ideal para desinfecção e formulação de produtos de limpeza.",
+    category: "limpeza",
+    image: "/images/products/cloreto-benzalconio.jpg",
+    applications: [
+      "Desinfecção de superfícies",
+      "Controle de algas e bactérias",
+      "Formulação de produtos sanitizantes",
+      "Desinfecção hospitalar",
+    ],
+    specifications: {
+      packaging: ["Bombona 20L", "Bombona 50L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "corantes-po",
+    name: "Corantes em Pó",
+    description:
+      "Corantes de alta qualidade para coloração de amaciantes, desinfetantes e detergentes em diversas tonalidades.",
+    category: "limpeza",
+    image: "/images/products/corantes.jpg",
+    applications: [
+      "Coloração de amaciantes de roupas",
+      "Coloração de desinfetantes",
+      "Coloração de detergentes líquidos",
+      "Produtos de limpeza personalizados",
+    ],
+    specifications: {
+      packaging: ["Pote 100g", "Pote 500g", "Pote 1kg"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "isobac-ig",
+    name: "Isobac IG (Substituto do Formol)",
+    description:
+      "Conservante e bactericida alternativo ao formol, mais seguro e eficaz para produtos de limpeza e cosméticos.",
+    category: "industrial",
+    image: "/images/products/isobac.jpg",
+    applications: [
+      "Conservante para produtos de limpeza",
+      "Bactericida para formulações cosméticas",
+      "Substituto do formol em diversas aplicações",
+      "Preservação de produtos químicos",
+    ],
+    specifications: {
+      packaging: ["Bombona 20L", "Bombona 50L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "lauril-eter-sulfato",
+    name: "Lauril Éter Sulfato de Sódio",
+    description:
+      "Tensoativo aniônico de alto poder de limpeza e formação de espuma, base para diversos produtos de higiene e limpeza.",
+    category: "limpeza",
+    image: "/images/products/lauril.jpg",
+    applications: [
+      "Fabricação de shampoos e sabonetes líquidos",
+      "Produção de detergentes líquidos",
+      "Base para produtos de limpeza",
+      "Formulação de produtos de higiene pessoal",
+    ],
+    specifications: {
+      packaging: ["Bombona 20L", "Bombona 50L", "Container 1000L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "renex",
+    name: "Renex 95% (Nonifenol)",
+    description:
+      "Tensoativo não-iônico de alta eficiência, usado em formulações de limpeza industrial e detergentes.",
+    category: "industrial",
+    image: "/images/products/renex.jpg",
+    applications: [
+      "Formulação de detergentes industriais",
+      "Emulsificante em produtos de limpeza",
+      "Agente molhante em processos industriais",
+      "Dispersante em formulações químicas",
+    ],
+    specifications: {
+      concentration: "95%",
+      packaging: ["Bombona 20L", "Bombona 50L", "Container 1000L"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "soda-caustica",
+    name: "Soda Cáustica Escamas Rayon",
+    description:
+      "Hidróxido de sódio em escamas de alta pureza, utilizado em diversos processos industriais e fabricação de produtos de limpeza.",
+    category: "industrial",
+    image: "/images/products/soda-caustica.jpg",
+    applications: [
+      "Fabricação de sabões e detergentes",
+      "Regulagem de pH em processos industriais",
+      "Limpeza pesada industrial",
+      "Tratamento de efluentes",
+    ],
+    specifications: {
+      packaging: ["Saco 25kg"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
     id: "sulfato-aluminio",
-    name: "Sulfato de Alumínio",
+    name: "Sulfato de Alumínio em Pó",
     description:
       "Coagulante para tratamento de água, clarificação e remoção de impurezas.",
     category: "tratamento-agua",
     image: "/images/products/sulfato-aluminio.jpg",
     applications: [
       "Coagulação de água",
-      "Clarificação",
+      "Clarificação de água potável",
       "Tratamento de efluentes",
+      "Remoção de turbidez",
     ],
     specifications: {
       packaging: ["Saco 25kg", "Big Bag 1000kg", "Granel"],
+      certifications: ["ANVISA"],
+    },
+  },
+  {
+    id: "sulfato-ferro",
+    name: "Sulfato de Ferro",
+    description:
+      "Produto químico utilizado em tratamento de água, fertilizantes e processos industriais.",
+    category: "industrial",
+    image: "/images/products/sulfato-ferro.jpg",
+    applications: [
+      "Tratamento de água e efluentes",
+      "Suplemento para agricultura",
+      "Processos industriais",
+      "Controle de pH",
+    ],
+    specifications: {
+      packaging: ["Saco 25kg", "Big Bag 1000kg"],
       certifications: ["ANVISA"],
     },
   },

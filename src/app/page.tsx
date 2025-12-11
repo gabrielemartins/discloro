@@ -25,9 +25,9 @@ const stats = [
 const features = [
   {
     icon: TruckIcon,
-    title: "Entrega Rápida",
+    title: "Entrega Rápida no RJ",
     description:
-      "Entregamos em todo Brasil com frota própria e rastreamento em tempo real.",
+      "Atendemos todo o Estado do Rio de Janeiro com entrega rápida e frota própria.",
   },
   {
     icon: ShieldCheckIcon,
@@ -80,8 +80,8 @@ export default function Home() {
               </h1>
               <p className="text-lg text-gray-300 mb-8 max-w-lg">
                 Fornecemos Hipoclorito de Sódio e produtos químicos de alta qualidade para tratamento
-                de água, limpeza profissional e uso industrial. Entrega rápida em todo
-                Brasil.
+                de água, limpeza profissional e uso industrial. Atendemos todo o Estado do Rio de Janeiro
+                com entrega rápida e segura.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg">
@@ -386,7 +386,7 @@ export default function Home() {
                   size="lg"
                   className="border-white text-white hover:text-[var(--primary)]"
                 >
-                  <Link href="tel:+5521999999999">(21) 9999-9999</Link>
+                  <Link href="tel:+552127778900">(21) 2777-8900</Link>
                 </Button>
               </div>
             </div>

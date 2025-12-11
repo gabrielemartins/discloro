@@ -31,7 +31,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5521988890604"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[var(--accent)] transition-colors"
@@ -165,14 +165,28 @@ export function Footer() {
                   Duque de Caxias - RJ, 00000-000
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <PhoneIcon className="text-[var(--secondary)]" size={20} />
-                <a
-                  href="tel:+551199999999"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  (11) 9999-9999
-                </a>
+              <li className="flex items-start gap-3">
+                <PhoneIcon className="text-[var(--secondary)] mt-1" size={20} />
+                <div className="text-gray-400">
+                  <a
+                    href="tel:+552127778900"
+                    className="hover:text-white transition-colors block"
+                  >
+                    (21) 2777-8900
+                  </a>
+                  <a
+                    href="tel:+552126763342"
+                    className="hover:text-white transition-colors block"
+                  >
+                    (21) 2676-3342
+                  </a>
+                  <a
+                    href="tel:+5521973862892"
+                    className="hover:text-white transition-colors block"
+                  >
+                    (21) 97386-2892
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <MailIcon className="text-[var(--secondary)]" size={20} />

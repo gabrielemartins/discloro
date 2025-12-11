@@ -45,10 +45,13 @@ export default function ContatoPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Entre em <span className="text-[var(--secondary)]">Contato</span>
             </h1>
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-300 mb-4">
               Estamos prontos para atender você. Solicite um orçamento, tire
               dúvidas ou agende uma visita técnica.
             </p>
+            <div className="inline-block px-4 py-2 bg-[var(--accent)]/20 text-[var(--accent)] rounded-full text-sm font-semibold">
+              📍 Atendemos todo o Estado do Rio de Janeiro
+            </div>
           </div>
         </div>
       </section>
@@ -73,13 +76,16 @@ export default function ContatoPage() {
                       Telefone
                     </h3>
                     <a
-                      href="tel:+552199999999"
+                      href="tel:+552127778900"
                       className="text-[var(--muted)] hover:text-[var(--primary)]"
                     >
-                      (21) 9999-9999
+                      (21) 2777-8900
                     </a>
                     <p className="text-[var(--muted)] text-sm">
-                      Fixo: (21) 3333-3333
+                      (21) 2676-3342
+                    </p>
+                    <p className="text-[var(--muted)] text-sm mt-1">
+                      Celular: (21) 97386-2892
                     </p>
                   </div>
                 </div>
@@ -93,12 +99,12 @@ export default function ContatoPage() {
                       WhatsApp
                     </h3>
                     <a
-                      href="https://wa.me/5521999999999"
+                      href="https://wa.me/5521988890604"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[var(--muted)] hover:text-[var(--primary)]"
                     >
-                      (21) 99999-9999
+                      (21) 98889-0604
                     </a>
                     <p className="text-[var(--muted)] text-sm">
                       Atendimento rápido
