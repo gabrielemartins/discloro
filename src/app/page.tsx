@@ -17,8 +17,8 @@ import { products } from "@/data/products";
 
 const stats = [
   { value: "15+", label: "Anos de Experiência" },
-  { value: "500+", label: "Clientes Ativos" },
-  { value: "10k+", label: "Entregas Realizadas" },
+  { value: "50+", label: "Clientes Ativos" },
+  { value: "1k+", label: "Entregas Realizadas" },
 ];
 
 const features = [
