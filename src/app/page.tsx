@@ -19,7 +19,6 @@ const stats = [
   { value: "15+", label: "Anos de Experiência" },
   { value: "500+", label: "Clientes Ativos" },
   { value: "10k+", label: "Entregas Realizadas" },
-  { value: "72h*", label: "Prazo de Entrega RJ" },
 ];
 
 const features = [
