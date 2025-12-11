@@ -158,11 +158,15 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPinIcon className="text-[var(--secondary)] shrink-0 mt-1" size={20} />
                 <span className="text-gray-400">
-                  Rua Moacyr Padilha, 1000
+                  Estrada do Camboatá, 120
                   <br />
-                  Jardim Primavera
+                  QD. 15, Lote 10K e 10L
                   <br />
-                  Duque de Caxias - RJ, 00000-000
+                  Chácara Rio-Petrópolis
+                  <br />
+                  Duque de Caxias - RJ
+                  <br />
+                  CEP: 25213-160
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -191,10 +195,10 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <MailIcon className="text-[var(--secondary)]" size={20} />
                 <a
-                  href="mailto:contato@discloro.com.br"
+                  href="mailto:comercial@discloro.com.br"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  contato@discloro.com.br
+                  comercial@discloro.com.br
                 </a>
               </li>
             </ul>

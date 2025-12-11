@@ -121,14 +121,11 @@ export default function ContatoPage() {
                       E-mail
                     </h3>
                     <a
-                      href="mailto:contato@discloro.com.br"
+                      href="mailto:comercial@discloro.com.br"
                       className="text-[var(--muted)] hover:text-[var(--primary)]"
                     >
-                      contato@discloro.com.br
+                      comercial@discloro.com.br
                     </a>
-                    <p className="text-[var(--muted)] text-sm">
-                      vendas@discloro.com.br
-                    </p>
                   </div>
                 </div>
 
@@ -141,11 +138,15 @@ export default function ContatoPage() {
                       Endereço
                     </h3>
                     <p className="text-[var(--muted)]">
-                      Rua Moacyr Padilha, 1000
+                      Estrada do Camboatá, 120
                       <br />
-                      Jardim Primavera
+                      QD. 15, Lote 10K e 10L
                       <br />
-                      Duque de Caxias - RJ, 00000-000
+                      Chácara Rio-Petrópolis
+                      <br />
+                      Duque de Caxias - RJ
+                      <br />
+                      CEP: 25213-160
                     </p>
                   </div>
                 </div>
@@ -356,7 +357,9 @@ export default function ContatoPage() {
               Discloro - Rio de Janeiro
             </p>
             <p className="text-[var(--muted)] text-sm">
-              Rua Moacir Padilha, 000 - Jardim Primavera, Duque de Caxias
+              Estrada do Camboatá, 120 - QD. 15, Lote 10K e 10L
+              <br />
+              Chácara Rio-Petrópolis, Duque de Caxias - RJ, CEP: 25213-160
             </p>
             <a
               href="https://maps.google.com"
