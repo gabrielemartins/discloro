@@ -19,6 +19,7 @@ const stats = [
   { value: "15+", label: "Anos de Experiência" },
   { value: "50+", label: "Clientes Ativos" },
   { value: "1k+", label: "Entregas Realizadas" },
+  { value: "72h", label: "Prazo de entrega" },
 ];
 
 const features = [
