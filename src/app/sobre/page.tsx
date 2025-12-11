@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Sobre Nós | Discloro",
   description:
-    "Conheça a Discloro, sua distribuidora de confiança de cloro e produtos químicos. Mais de 15 anos de experiência no mercado brasileiro.",
+    "Conheça a Discloro, sua distribuidora de confiança de Hipoclorito de Sódio e produtos químicos. Mais de 15 anos de experiência no mercado brasileiro.",
 };
 
 const values = [
@@ -27,7 +27,7 @@ const values = [
     icon: TruckIcon,
     title: "Agilidade",
     description:
-      "Entrega rápida com frota própria e rastreamento em tempo real para todo o Brasil.",
+      "Entrega rápida com frota própria todo o Rio de Janeiro.",
   },
   {
     icon: UsersIcon,
@@ -48,13 +48,13 @@ const timeline = [
     year: "2008",
     title: "Fundação",
     description:
-      "A Discloro nasce em Rio de Janeiro com o objetivo de fornecer produtos químicos de qualidade para o mercado carioca.",
+      "A Discloro nasce em Duque de Caxias com o objetivo de fornecer produtos químicos de qualidade para o mercado caxiense.",
   },
   {
     year: "2012",
     title: "Expansão Regional",
     description:
-      "Ampliamos nossa área de atuação para todo o estado de Rio de Janeiro e região Sul do país.",
+      "Ampliamos nossa área de atuação para todo o estado de Rio de Janeiro.",
   },
   {
     year: "2016",
